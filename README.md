@@ -11,7 +11,7 @@ An amazing news app that keeps you updated about latest and trending stories.
 ### Usage
 * First, clone the repository with the following command and then enter the directory.
 ```
-git clone https://github.com/hellomlorg/news-app
+git clone https://github.com/Rohan-Kumar-Gupta/News-App.git
 cd news-app
 ```
 * We made use of a third party API to obtain the news. It can be accessed via News API. Create an account here and get an API key to use in the project.
