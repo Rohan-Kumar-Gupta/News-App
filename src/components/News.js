@@ -39,7 +39,7 @@ export class News extends Component {
     let parsedData = await data.json();
 
     this.setState({
-      articles: parsedData.articles,
+      articles: parsedData?.articles,
       totalResults: parsedData.totalResults,
       loading: false,
       page: page,
@@ -73,7 +73,7 @@ export class News extends Component {
         </h1>
         {this.state.loading && <Spinner />}
         <InfiniteScroll
-          dataLength={this.state.articles.length}
+          dataLength={this.state?.articles?.length}
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
           loader={<Spinner />}
