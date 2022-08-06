@@ -2,10 +2,16 @@
 # News App
 An amazing news app that keeps you updated about latest and trending stories.
 
+
+
 ### Tech Used
 * React.js
 * NPM
 * NewsAPI
+
+https://user-images.githubusercontent.com/85207411/183261550-77df1f7f-65b5-41ec-881c-0b4f7f40dcbe.mp4
+
+
 * CSS
 
 ### Usage
